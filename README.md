@@ -46,7 +46,7 @@
 ### 前置要求
 
 - [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
-- 阿里云 MPServerless 服务空间（[开通地址](https://help.aliyun.com/document_detail/126644.html)）
+- 阿里云 MPServerless 服务空间
 
 ### 步骤
 
