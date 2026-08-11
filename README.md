@@ -1,6 +1,8 @@
-# 🐱 南雍猫札
+# 🐱 南雍猫札 · NJU Meow
 
-南京大学鼓楼校区流浪猫图鉴微信小程序。
+> A WeChat Mini Program cataloging the stray cats of Nanjing University Gulou Campus.
+
+![icon](./miniprogram/images/icon.jpg)
 
 「南雍猫札」由南京大学未闻喵名团队开发，旨在记录南京大学鼓楼校区的流浪猫信息。这里每一只猫都有自己的名字、故事和关系，它们见证了南大人的青春，也值得被记录、被看见。
 
@@ -13,10 +15,9 @@
 
 ## 🛠 技术栈
 
-- **框架：** 微信原生小程序
-- **后端：** 阿里云 MPServerless（原微信云开发，已迁移）
-- **图表：** ECharts（echarts-for-weixin）
-- **语言：** JavaScript（CommonJS）
+`微信小程序` `阿里云 MPServerless` `ECharts` `JavaScript`
+
+NJU Meow is built with native WeChat Mini Program APIs, Alibaba Cloud MPServerless for backend services, and ECharts (echarts-for-weixin) for the relationship graph. The project was originally on WeChat CloudBase and has since migrated to Alibaba Cloud.
 
 ## 📁 项目结构
 
