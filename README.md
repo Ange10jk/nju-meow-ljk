@@ -2,7 +2,7 @@
 
 > A WeChat Mini Program cataloging the stray cats of Nanjing University Gulou Campus.
 
-![icon](./miniprogram/images/icon.jpg)
+<img src="./miniprogram/images/icon.jpg" width="160" align="right">
 
 「南雍猫札」由南京大学未闻喵名团队开发，旨在记录南京大学鼓楼校区的流浪猫信息。这里每一只猫都有自己的名字、故事和关系，它们见证了南大人的青春，也值得被记录、被看见。
 
