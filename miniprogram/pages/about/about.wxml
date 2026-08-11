@@ -1,0 +1,13 @@
+<view class="container">
+
+<view style="display:flex; justify-content:center;">
+    <image lazy-load mode="aspectFit"src="../../images/image1.jpg"></image>
+</view>
+
+<view class='head'>开发初衷：</view>
+<view class='body'>在南京大学（以下简称：南大）的校园内，有着一群可爱的猫学长猫学姐。它们见证了一批批热忱的学子踏入南大，又目送着每一位成熟的南大人离开校园。它们是南大人的青春里最动人的靓色，是回首青春时让人心头一暖的温柔注脚。但是，截至2025年，南大却并没有一个可用的、系统的猫咪图鉴记录这些小生命与南大和南大人的故事。因此，我们共同开发了这款“南雍猫札”微信小程序记录南大鼓楼校区已知的流浪猫，力求让它们的故事被记录、被看见，传递温暖和关爱。</view>
+
+<view class="body1">开发团队：姜子骞 罗靖凯 王子璇</view>
+<view class="body1">猫咪户口管理员：王语萱 贾子姗</view>
+<view class="body1">特别鸣谢：祝培森 沈霄驰 王语萱 钟心仪 陈旻珠（最初整理猫咪的图片和信息）以及宠物之家提供猫咪照片的群友们</view>
+</view>

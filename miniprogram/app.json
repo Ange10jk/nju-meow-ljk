@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/catsindex/catsindex",
+    "pages/catsmap/catsmap",
+    "pages/catdetail/catdetail",
+    "pages/catschart/catschart",
+    "pages/about/about",
+    "pages/addcat/addcat",
+    "pages/editcat/editcat"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "南雍猫札",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "color": "#A2A9B0",
+    "selectedColor": "#07C160",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/catsindex/catsindex",
+        "text": "图鉴",
+        "iconPath": "images/icons/index.jpg",
+        "selectedIconPath": "images/icons/index-active.jpg"
+      },
+      {
+        "pagePath": "pages/catsmap/catsmap",
+        "text": "地图",
+        "iconPath": "images/icons/map.jpg",
+        "selectedIconPath": "images/icons/map-active.jpg"
+      },
+      {
+        "pagePath": "pages/catschart/catschart",
+        "text": "关系图",
+        "iconPath": "images/icons/chart(1).jpg",
+        "selectedIconPath": "images/icons/chart-active.jpg"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/icons/about.jpg",
+        "selectedIconPath": "images/icons/about.jpg"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于地图展示"
+    }
+  }
+}

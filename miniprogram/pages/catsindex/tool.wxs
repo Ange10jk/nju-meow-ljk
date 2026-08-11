@@ -1,0 +1,16 @@
+var func=function(o){
+    if(o==='在校')
+        return 'status-school';
+    else if(o==='已领养')
+        return 'status-adopted';
+    else if(o==='送医')
+        return 'status-hospital';
+    else if(o==='喵星')
+        return 'status-star';
+    else if(o==='失踪')
+        return 'status-missing';
+}
+
+module.exports={
+    func:func
+}

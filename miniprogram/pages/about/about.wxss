@@ -1,0 +1,35 @@
+.body {
+    font-size: 30rpx;
+    color: #333;
+    font-weight: 400;
+    margin-top:40rpx;
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+    margin-bottom: 30rpx;
+    letter-spacing: 10rpx;
+    line-height: 60rpx;
+    /* text-align:justify; */
+}
+.body1 {
+    font-size: 25rpx;
+    color: #555;
+    font-weight: 400;
+    margin-top:10rpx;
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+    margin-bottom: 10rpx;
+    letter-spacing: 2rpx;
+    line-height: 50rpx;
+}
+.container{
+    background-color: #f9f6f0;
+}
+.head {
+    font-size: 38rpx;
+    margin-left: 50rpx;
+    margin-bottom: 20rpx;
+    margin-top: 40rpx;
+    font-weight: bold;
+    line-height: 50rpx;
+    color: #333;
+  }

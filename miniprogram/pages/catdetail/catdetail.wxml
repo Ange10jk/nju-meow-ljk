@@ -1,0 +1,102 @@
+<!--猫咪图片-->
+<!--jzq:照片是左右留空好看还是填满好看？mode属性是缩放模式可以改-->
+<view class="container">
+<view style="display:flex; justify-content:center;">
+    <image lazy-load mode="aspectFit" bindtap="previewImg" src="https://你的CDN域名/catimage(compressed)/{{cat.name}}.{{cat.image_id}}"></image>
+</view>
+<!--猫咪具体信息-->
+
+<view   class="infocontainer">
+    <view class="catinfo">
+        <view class="catinfo-item1">
+            名字
+        </view>
+        <view  class="catinfo-item2">
+            {{cat.name}}
+        </view>
+    </view>
+    <view class="catinfo">
+        <view class="catinfo-item1">
+            性别
+        </view>
+        <view class="catinfo-item2">
+            {{cat.gender}}
+        </view>
+    </view>
+    <view class="catinfo" wx:if="{{cat.nickname}}">
+        <view class="catinfo-item1">
+            别名
+        </view>
+        <view class="catinfo-item2">
+            {{cat.nickname}}
+        </view>
+    </view>
+    <view class="catinfo">
+        <view class="catinfo-item1">
+            花色
+        </view>
+        <view class="catinfo-item2">
+            {{cat.color}}
+        </view>
+    </view>
+    <view class="catinfo">
+        <view class="catinfo-item1">
+            状态
+        </view>
+        <view class="catinfo-item2">
+            {{cat.status}}
+        </view>
+    </view>
+    <view class="catinfo">
+        <view class="catinfo-item1">
+            出生年份
+        </view>
+        <view class="catinfo-item2">
+            {{cat.birth||"未知"}}
+        </view>
+    </view>
+    <view class="catinfo">
+        <view class="catinfo-item1">
+            活动范围
+        </view>
+        <view class="catinfo-item2">
+            {{cat.activity_range||"未知"}}
+        </view>
+    </view>
+    <view class="catinfo">
+        <view class="catinfo-item1">
+            是否绝育
+        </view>
+        <view class="catinfo-item2">
+            {{cat.is_neutured||"未知"}}
+        </view>
+    </view>
+    <view class="catinfo">
+        <view class="catinfo-item1">
+            外貌
+        </view>
+        <view class="catinfo-item2">
+            {{cat.appearance||"未知"}}
+        </view>
+    </view>
+    <view class="catinfo">
+        <view class="catinfo-item1">
+           性格
+        </view>
+        <view class="catinfo-item2" wx:if="{{cat.personality[1]}}">
+            {{cat.personality}}
+        </view>
+        <view class="catinfo-item2" wx:if="{{!cat.personality[1]}}">
+            未知
+        </view>
+    </view>
+    <view class="catinfo" style="width:100%">
+        <view class="catinfo-item1">
+           更多
+        </view>
+        <view class="catinfo-item2">
+            {{cat.more||"无"}}
+        </view>
+    </view>
+</view>
+</view>

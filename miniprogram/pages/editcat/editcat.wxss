@@ -1,0 +1,29 @@
+/* pages/catdetail/catdetail.wxss */
+page {
+    background-color: #f9f6f0;
+  }
+  .infocontainer{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:flex-start;
+  }
+  
+  .catinfo{
+      margin:20rpx;
+      width:330rpx;
+  }
+  
+  .catinfo-item1{
+      font-size:35rpx;
+      font-weight:500;
+      color:#636363;
+  }
+  
+  .catinfo-item2{
+      font-size:30rpx;
+  }
+  
+  .container{
+      background-color: #f9f6f0;
+      height:100vh;
+  }

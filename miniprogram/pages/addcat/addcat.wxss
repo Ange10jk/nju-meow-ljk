@@ -1,0 +1,8 @@
+.head1 {
+    font-size: 35rpx;
+    margin-left: 40rpx;
+    margin-bottom: 20rpx;
+    margin-top: 50rpx;
+    font-weight: bold;
+    color: black;
+  }

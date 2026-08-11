@@ -1,0 +1,96 @@
+<view class="head1">
+  <text user-select="true">名字</text>
+</view>
+
+<view class="edit-input">
+    <text user-select="true">{{cat.name}}</text>
+</view>
+
+
+<view class="head1">
+  <text user-select="true">别名</text>
+</view>
+<input data-key='nickname' bindinput="inputText" class="edit-input" value="{{cat.nickname}}" />
+
+<view class="head1">
+  <text user-select="true">花色</text>
+</view>
+<picker mode="selector" data-key='color' bindchange="bindPickerChange" range="{{pickers.color}}" value='{{picker_selected.color}}'>
+  <view class="edit-input">
+    {{cat.color}}
+  </view>
+</picker>
+
+<view class="head1">
+  <text user-select="true">性别</text>
+</view>
+<picker mode="selector" data-key='gender' bindchange="bindPickerChange" range="{{pickers.gender}}" value='{{picker_selected.gender}}'>
+  <view class="edit-input">
+    {{cat.gender}}
+  </view>
+</picker>
+
+<view class="head1">
+  <text user-select="true">出生时间</text>
+</view>
+<input data-key='birth' bindinput="inputText" class="edit-input" value="{{cat.birth}}" />
+
+<view class="head1">
+  <text user-select="true">外观</text>
+</view>
+<input data-key='appearance' bindinput="inputText" class="edit-input" value="{{cat.appearance}}" />
+
+<view class="head1">
+  <text user-select="true">活动地点</text>
+</view>
+<picker mode="selector" data-key='activity_range' bindchange="bindPickerChange" range="{{pickers.activity_range}}">
+  <view class="edit-input">
+    {{cat.activity_range}}
+  </view>
+</picker>
+
+<view class="head1">
+  <text user-select="true">状态</text>
+</view>
+<picker mode="selector" data-key='status' bindchange="bindPickerChange" range="{{pickers.status}}">
+  <view class="edit-input">
+    {{cat.status}}
+  </view>
+</picker>
+
+
+
+<view class="head1">
+  <text user-select="true">是否绝育</text>
+</view>
+<input data-key='is_neutured' bindinput="inputText" class="edit-input" value="{{cat.is_neutured}}" />
+
+<view class="head1">
+  <text user-select="true">性格</text>
+</view>
+<input data-key='personality' bindinput="inputText" class="edit-input" value="{{cat.personality}}" />
+
+<view class="head1">
+  <text user-select="true">更多</text>
+</view>
+<input data-key='more' bindinput="inputText" class="edit-input" value="{{cat.more}}" />
+
+<text> \n </text>
+
+<view style="display:flex; justify-content:center;" wx:if="{{tempImageFilePath}}">
+    <image lazy-load mode="aspectFit" bindtap="previewImg" src="{{tempImageFilePath}}"></image>
+</view>  
+
+<text>\n</text>
+
+<button bindtap='chooseImage'>上传图片(限一张)</button>
+
+<text> \n </text>
+
+<button type='primary' bindtap='upload' style="margin: 10;">确定提交</button>
+
+<text> \n </text>
+
+<!-- 添加在页面底部 -->
+<canvas type="2d" id="circleCanvas" style="width:100px; height:100px; position:fixed; left:-9999px;"></canvas>
+<canvas type="2d" id="normalCanvas" style="width:800px; height:800px; position:fixed; left:-9999px;"></canvas>

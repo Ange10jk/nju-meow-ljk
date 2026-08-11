@@ -1,0 +1,18 @@
+
+<view class="container">
+  <map 
+    id="map"
+    longitude="{{longitude}}"
+    latitude="{{latitude}}"
+    scale="{{scale}}"
+    polygons="{{polygons}}"
+    markers="{{markers}}"
+    bindmarkertap="onMarkerTap"
+    style="width: 100%; height: 100vh;"
+    bindregionchange="regionChange"
+    enable-3D = "true">
+  </map>
+  <cover-view class="fixed-text">点击猫咪头像跳转详情页</cover-view>
+</view>
+
+<!-- </view> -->

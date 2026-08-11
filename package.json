@@ -1,0 +1,16 @@
+{
+  "name": "nju-meow",
+  "version": "1.0.0",
+  "description": "南京大学鼓楼校区流浪猫图鉴微信小程序",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["wechat", "miniprogram", "cat", "nju"],
+  "author": "南雍猫札开发团队",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@alicloud/mpserverless-sdk": "^3.1.5"
+  }
+}

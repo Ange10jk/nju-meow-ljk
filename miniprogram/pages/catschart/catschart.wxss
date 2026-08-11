@@ -1,0 +1,13 @@
+/* pages/catschart/catschart.wxss */
+ec-canvas {
+    width: 100%;
+    height: 100%;
+}/*?什么选择器*/
+.container {
+    position: absolute;
+    background-color:#f9f6f0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  } 
