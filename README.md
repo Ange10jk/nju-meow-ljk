@@ -1,12 +1,12 @@
 # 🐱 南雍猫札 · NJU Meow
 
-> A WeChat Mini Program cataloging the stray cats of Nanjing University Gulou Campus.
+> A WeChat Mini Program cataloging the stray cats of Nanjing University Gulou Campus(NJU).
 
 <img src="./miniprogram/images/icon.jpg" width="160" align="right">
 
 「南雍猫札」由南京大学未闻喵名团队开发，旨在记录南京大学鼓楼校区的流浪猫信息。这里每一只猫都有自己的名字、故事和关系，它们见证了南大人的青春，也值得被记录、被看见。
 
-## ✨ 功能
+## ✨ 功能 
 
 - **猫咪图鉴** — 按花色分类浏览所有猫咪，查看详细信息（性别、性格、外貌、绝育状况等）
 - **校园地图** — 在地图上查看猫咪常在的活动区域，一键跳转详情
